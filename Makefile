@@ -1,6 +1,7 @@
 all: deploy
 
 tsc: src/*.ts
+	npm install
 	cd src; npm install
 	cd src; tsc *.ts --outDir ../dest
 
