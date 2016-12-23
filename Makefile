@@ -19,3 +19,7 @@ invoke: deploy
 
 local: build
 	cd dest; sls invoke local -f hello
+
+clean:
+	rm -r node_modules
+	rm -r dest
