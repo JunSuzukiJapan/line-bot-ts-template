@@ -1,6 +1,7 @@
 all: deploy
 
 tsc: src/*.ts
+	cd src; npm install
 	cd src; tsc *.ts --outDir ../dest
 
 copy: src/*.yml

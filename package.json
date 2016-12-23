@@ -1,11 +1,8 @@
 {
-  "name": "lambda-with-typescript",
+  "name": "line-bot-ts-template",
   "version": "1.0.0",
   "description": "",
   "main": "handler.js",
-  "dependencies": {
-    "superagent": "^3.3.1"
-  },
   "devDependencies": {
     "@types/aws-lambda": "0.0.5",
     "typescript": "^2.1.4"
