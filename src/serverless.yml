@@ -1,4 +1,4 @@
-service: lambda-with-typescript
+service: line-bot-ts-template
 
 provider:
   name: aws

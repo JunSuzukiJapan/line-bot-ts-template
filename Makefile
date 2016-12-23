@@ -5,6 +5,8 @@ tsc: src/*.ts
 
 copy: src/*.yml
 	cp src/*.yml ./dest
+	cp src/package.json ./dest
+	cd dest; npm install
 
 build: tsc copy
 
