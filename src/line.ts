@@ -1,9 +1,8 @@
 import * as lambda from 'aws-lambda';
 import request from 'superagent';
-import * as token from './token';
+import * as accessToken from './token';
 
 const endpoint = 'https://api.line.me/v2/bot/message/reply';
-const accessToken = token;
 
 // lambda function 'hello' for local test
 export function hello(event: any, context: lambda.Context, callback: lambda.Callback) {  
