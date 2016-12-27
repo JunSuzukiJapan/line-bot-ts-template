@@ -14,7 +14,7 @@
     "typescript": "^2.1.4"
   },
   "scripts": {
-    "test": "make build"
+    "test": "make local"
   },
   "author": "Jun Suzuki (jun.suzuki.japan@gmail.com)",
   "license": "MIT",
